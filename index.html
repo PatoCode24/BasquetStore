@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce simple</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header-mobile">
+            <h1 class="logo">BásquetStore</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <header>
+                <h1 class="logo">BásquetStore</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li>
+                        <button class="boton-menu boton-categoria active" id="todos">
+                            <i class="bi bi-asterisk"></i>Todos los productos
+                        </button>
+                    </li>
+                    <li>
+                        <button class="boton-menu boton-categoria" id="indumentaria">
+                            <i class="bi bi-asterisk"></i>Indumentaria
+                        </button>
+                    </li>
+                    <li>
+                        <button class="boton-menu boton-categoria" id="pelotas">
+                            <i class="bi bi-asterisk"></i>Pelotas
+                        </button>
+                    </li>
+                    <li>
+                        <button class="boton-menu boton-categoria" id="accesorios">
+                            <i class="bi bi-asterisk"></i>Accesorios
+                        </button>
+                    </li>
+                    <li>
+                        <a href="./carrito.html" class="boton-menu boton-carrito"><i class="bi bi-cart"></i>Carrito
+                            <span id="numerito" class="numerito">0</span></a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">
+                    &copy;
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>
+                    - BásquetStore
+                </p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">
+                Todos los productos
+            </h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+                <!--Se rellena con js-->
+            </div>
+        </main>
+    </div>
+    <script src="./js/main.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>
