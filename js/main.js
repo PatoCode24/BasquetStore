@@ -60,6 +60,69 @@ const productos = [
         },
         precio: 28000  
     },
+
+    //Zapatillas
+    {
+        id: "zapatillas-01",
+        titulo: "Converse NBA Jam ",
+        imagen: "./img/zapatillas/converse.jpg",
+        categoria: {
+            nombre: "Zapatillas",
+            id: "zapatillas"
+        },
+        precio: 103000  
+    },
+    {
+        id: "zapatillas-02",
+        titulo: "Under Armour UA ",
+        imagen: "./img/zapatillas/armour.jpg",
+        categoria: {
+            nombre: "Zapatillas",
+            id: "zapatillas"
+        },
+        precio: 48000 
+    },
+    {
+        id: "zapatillas-03",
+        titulo: "Pro N3xt ",
+        imagen: "./img/zapatillas/adidas.jpg",
+        categoria: {
+            nombre: "Zapatillas",
+            id: "zapatillas"
+        },
+        precio: 39000  
+    },
+    {
+        id: "zapatillas-04",
+        titulo: "Topper Candun ",
+        imagen: "./img/zapatillas/topper.jpg",
+        categoria: {
+            nombre: "Zapatillas",
+            id: "zapatillas"
+        },
+        precio: 22000  
+    },
+    {
+        id: "zapatillas-05",
+        titulo: "Under Armour Hovr ",
+        imagen: "./img/zapatillas/armour1.jpg",
+        categoria: {
+            nombre: "Zapatillas",
+            id: "zapatillas"
+        },
+        precio: 89000 
+    },
+    {
+        id: "zapatillas-06",
+        titulo: "Peak Faster Pro",
+        imagen: "./img/zapatillas/peak.jpg",
+        categoria: {
+            nombre: "Zapatillas",
+            id: "zapatillas"
+        },
+        precio: 35000  
+    },
+
     //Pelotas
     {
         id: "pelota-01",
